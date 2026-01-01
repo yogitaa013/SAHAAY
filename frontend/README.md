@@ -1,23 +1,62 @@
-# Sahaay – Transgender Legal & Healthcare Help Desk (MERN)
+# Sahaay – Legal & Healthcare Support System
 
-**Sahaay** is a web app that helps transgender individuals access legal support, healthcare, and government schemes. It provides a clean, user-friendly interface with structured information to simplify real-world challenges.
+![Sahaay Banner](./assets/howtouse-banner.jpg)
 
-## Live Demo
-Check out the live demo here: [Sahaay Live](https://YOUR-LIVE-APP-LINK)
+## 🌐 Live Demo
+🔗 [Click here to visit the live site](https://sahaay-care.web.app)
 
-## Features
-- User authentication and secure login
-- CRUD operations for resources
-- API integration for healthcare, legal, and government info
-- Clean and responsive UI
+---
 
-## Tech Stack
-- Frontend: React.js
-- Backend: Node.js, Express.js
-- Database: MongoDB
-- Authentication: JWT
+## 📝 Project Overview
+Sahaay is a web application designed to provide **legal and healthcare support resources**.  
+It allows users to register, login securely, browse resources, filter by category or state, bookmark important resources, and contact NGOs.  
 
-## Installation (For Local Setup)
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yogitaa013/sahaay.git
+The app respects user privacy and does not share any personal data.
+
+---
+
+## ⚡ Features
+- User Registration & Secure Login  
+- Browse legal & healthcare resources  
+- Filter resources by category or state  
+- Bookmark important resources  
+- Visit NGO websites for assistance  
+- How-to-use guide in **English** and **Hindi**  
+- Fully responsive and user-friendly UI  
+
+---
+
+## 🛠 Tech Stack
+- **Frontend:** React, Vite  
+- **Routing:** React Router  
+- **Styling:** CSS  
+- **Hosting:** Firebase Hosting  
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/yogitaa013/SAHAAY.git
+cd your-repo-name/frontend
+2. Install dependencies
+npm install
+
+3. Run locally
+npm run dev
+
+The app will run at http://localhost:5173
+
+4. Build for production
+npm run build
+
+5. Deploy to Firebase
+firebase deploy
+
+🧑‍💻 Future Improvements
+
+1.Add NGO contact forms directly in the app
+2.Implement search functionality for resources
+3.Add user profiles and personalized bookmarks
+4.Integrate push notifications for emergency support
