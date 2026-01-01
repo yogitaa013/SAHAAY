@@ -1,6 +1,6 @@
 # Sahaay – Legal & Healthcare Support System
 
-![Sahaay Banner](./assets/howtouse-banner.jpg)
+"Empowering the transgender community with legal, healthcare, and emotional support.”
 
 ## 🌐 Live Demo
 🔗 [Click here to visit the live site](https://sahaay-care.web.app)
