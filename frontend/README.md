@@ -1,16 +1,23 @@
-# React + Vite
+# Sahaay – Transgender Legal & Healthcare Help Desk (MERN)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Sahaay** is a web app that helps transgender individuals access legal support, healthcare, and government schemes. It provides a clean, user-friendly interface with structured information to simplify real-world challenges.
 
-Currently, two official plugins are available:
+## Live Demo
+Check out the live demo here: [Sahaay Live](https://YOUR-LIVE-APP-LINK)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- User authentication and secure login
+- CRUD operations for resources
+- API integration for healthcare, legal, and government info
+- Clean and responsive UI
 
-## React Compiler
+## Tech Stack
+- Frontend: React.js
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Authentication: JWT
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation (For Local Setup)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yogitaa013/sahaay.git
