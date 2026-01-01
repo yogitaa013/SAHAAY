@@ -35,7 +35,7 @@ The app respects user privacy and does not share any personal data.
 ---
 🧑‍💻 Future Improvements
 
-1.Add NGO contact forms directly in the app
-2.Implement search functionality for resources
-3.Add user profiles and personalized bookmarks
-4.Integrate push notifications for emergency support
+- Add NGO contact forms directly in the app
+- Implement search functionality for resources
+- Add user profiles and personalized bookmarks
+- Integrate push notifications for emergency support
