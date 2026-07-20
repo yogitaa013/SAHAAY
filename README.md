@@ -159,6 +159,19 @@ The frontend is built with React and Vite.
 - ResourceCard: displays each resource in a reusable card format
 - ThemeContext: manages light/dark mode
 
+### Brief Explanation of Important Files
+- frontend/src/main.jsx: bootstraps the React app and wraps it with BrowserRouter
+- frontend/src/App.jsx: defines the routing between pages and handles authentication state
+- frontend/src/api/api.js: creates the Axios instance used to communicate with the backend
+- frontend/src/pages/Login.jsx: handles user login UI and form submission
+- frontend/src/pages/Register.jsx: handles user registration UI and form submission
+- frontend/src/pages/Dashboard.jsx: displays resources, applies filters, and manages bookmarks
+- frontend/src/pages/About.jsx: shows the mission and purpose of the platform
+- frontend/src/pages/HowToUse.jsx: provides guidance in English and Hindi
+- frontend/src/components/Navbar.jsx: manages top navigation and logout
+- frontend/src/components/ResourceCard.jsx: displays an individual support resource card
+- frontend/src/context/ThemeContext.jsx: manages the light/dark theme toggle
+
 ### Frontend Flow
 1. User opens the app.
 2. If not logged in, the user is redirected to the login page.
@@ -183,6 +196,16 @@ The backend is built with Node.js and Express.js.
 ### Models
 - User model: stores user details such as name, email, and password
 - Resource model: stores resource details such as title, description, category, state, contact, and link
+
+### Brief Explanation of Important Files
+- backend/server.js: starts the server and connects the app to MongoDB
+- backend/controllers/authController.js: contains the logic for user registration and login
+- backend/controllers/resourceController.js: contains logic to retrieve and create resources
+- backend/routes/authRoutes.js: defines authentication API routes
+- backend/routes/resourceRoutes.js: defines routes for resource access
+- backend/middleware/authMiddleware.js: protects routes by verifying JWT tokens
+- backend/models/User.js: defines the schema for user data
+- backend/models/Resource.js: defines the schema for support resource data
 
 ### Backend Flow
 1. The frontend sends credentials to the authentication API.
